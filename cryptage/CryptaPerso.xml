@@ -1,0 +1,13 @@
+﻿<configuration>
+	<mscorlib>
+		<cryptographySettings>
+			<cryptoNameMapping>
+				<cryptoClasses>
+					<cryptoClass SHA256CSP="System.Security.Cryptography.SHA256CryptoServiceProvider, System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				</cryptoClasses>
+				<nameEntry name="http://contoso.com/CustomAlgorithms/CustomHashAlgorithm"
+				   class="SHA256CSP" />
+			</cryptoNameMapping>
+		</cryptographySettings>
+	</mscorlib>
+</configuration>
